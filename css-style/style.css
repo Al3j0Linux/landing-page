@@ -1,0 +1,163 @@
+/* font-size, color and style*/
+body {
+    margin: auto;
+    width: 80%;
+    background: black;
+    display: flex;
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    color: #e5e7eb;
+    height: 50px;
+    align-items: flex-end;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+/*header logo*/
+
+h3 {
+    font-size: 24px;
+    color: #f9faf8;  
+  }
+
+li {
+    display: flex;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+ul {
+    display: flex;
+    width: 380px;
+    justify-content: space-around;
+}
+
+.first-block {
+    background-color: #1f2937;
+    display: flex;
+    padding: 49px 15%;
+}
+
+.text-awesome {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+    margin: 0px;
+}
+
+.website {
+    margin-right: 15px;
+}
+
+#img-holder {
+    background-color: rgb(85, 96, 113);
+    color: #f9faf8;
+    font-size: 13px;
+    width: 480px;
+    height: 148px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 15px;
+}
+
+.second-block {
+    background-color: whitesmoke;
+    display: flex;
+    padding: 20px 15% 49px 15%;
+    flex-direction: column; 
+}
+
+#info {
+    justify-content: center;
+    display: flex;
+}
+
+.information {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.boxes {
+    display: flex;
+    gap: 9px;
+}
+
+.p-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+#sign-up {
+    background-color: #3882f6;
+    color: white;
+    border: 1px;
+    border-radius: 3px;
+}
+
+.thirt-block {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1f2937;
+    display: flex;
+    padding: 49px 15%;
+    flex-direction: column;
+}
+
+#inspiring-quote {
+    font-style: italic;
+}
+
+.Thor {
+    font-size: 25px;
+    align-self: flex-end;
+}
+
+.fourth-block {
+    background-color: whitesmoke;
+    display: flex;
+    padding: 20px 15%;
+}
+
+#call {
+    background-color: #3882f6;
+    color: white;
+    border-left: 1px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    padding: 0px 13px;
+    width: 514px;
+}
+
+.puto {
+    background-color: #3882f6;
+    width: 213px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.botonsito {
+    border-radius: 3px;
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    padding-left: 15%;
+    padding-right: 15%;
+    color: #f9faf8;
+    justify-content: center;
+}
+
