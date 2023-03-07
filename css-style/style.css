@@ -1,4 +1,4 @@
-/* font-size, color and style*/
+
 body {
     margin: auto;
     width: 80%;
@@ -54,16 +54,14 @@ ul {
     margin-right: 15px;
 }
 
-#img-holder {
-    background-color: rgb(85, 96, 113);
-    color: #f9faf8;
-    font-size: 13px;
+.ufc {
     width: 480px;
     height: 148px;
     justify-content: center;
     align-items: center;
     display: flex;
     margin-top: 15px;
+    object-fit: cover;
 }
 
 .second-block {
@@ -87,6 +85,18 @@ ul {
 .boxes {
     display: flex;
     gap: 9px;
+}
+
+.second-block img {
+    width: 187px;
+    height: 200px;
+    object-fit: cover;
+    border: 4px solid #3882f6;
+    border-radius: 15px;
+}
+
+.second-block p {
+    text-align: center;
 }
 
 .p-text {
@@ -123,6 +133,7 @@ ul {
     background-color: whitesmoke;
     display: flex;
     padding: 20px 15%;
+    justify-content: center;
 }
 
 #call {
@@ -146,9 +157,12 @@ ul {
 }
 
 .botonsito {
-    border-radius: 3px;
+    border-radius: 8px;
     background-color: #3882f6;
     color: #f9faf8;
+    border-color: #fff;
+    padding: 5px 25px;
+    font-size: 15px
 }
 
 
